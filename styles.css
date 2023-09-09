@@ -1,0 +1,13 @@
+@import url("../styles/header.css");
+
+:root {
+    --cinza: #cccccccc;
+    --verde-claro: #DAff01;
+    --roxo: #9353ff;
+    --vermelho: #ee6471;
+    --laranja: #f87f46;
+    --cor-preto: black;
+}
+body {
+    background-color: var(--cinza);
+}
