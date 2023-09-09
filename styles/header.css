@@ -1,0 +1,31 @@
+.cabecalho_menu-hamburguer{
+    width: 18px;
+    height: 15px;
+    background-image: url("../assents/icon-menu.svg");
+    display: inline-block;
+    
+}
+.cabecalho {
+    background-color: var(--cor-preto);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.espacamento{
+    padding: 1em;
+}
+.lista-menu{
+    display: none;
+    position: absolute;
+    left: 69%;
+    top: 85%;
+}
+.container__botao:checked~.lista-menu {
+    display: block;
+}
